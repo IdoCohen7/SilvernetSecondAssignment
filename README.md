@@ -9,6 +9,7 @@
 8. בקרת גישה עם JWT (שימוש ב-Hardcoded Credentials: ido@example.com, 123456) - ניתן לבדיקה בסוואגר.
 
 הערה:
+
 במהלך המימוש זיהיתי כי הפרדה מלאה בין Domain Entities לבין Resources של JsonApiDotNetCore, ללא שימוש בשכבת Repository (כנדרש), מחייבת תבנית ארכיטקטונית מסוימת שאינה מתוארת באופן מפורש בתיעוד הרשמי של הספרייה.
 לאור מגבלת הזמן, בחרתי להתמקד במימוש יציב, תקני ומלא של JSON:API (Resources, Definitions, Services, Routing, Filtering, Logging ו־Access Control), תוך שמירה על מבנה קוד שניתן להרחבה והעמקה עתידית במידת הצורך.
 אשמח כמובן להעמיק בנושא וללמוד אותו בהמשך!
