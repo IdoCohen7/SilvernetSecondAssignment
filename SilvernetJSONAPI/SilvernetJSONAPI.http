@@ -1,0 +1,6 @@
+@SilvernetJSONAPI_HostAddress = http://localhost:5264
+
+GET {{SilvernetJSONAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
